@@ -14,12 +14,12 @@ $color-base: #1C1B1A;
   display: block;
 }
 
-[lang] .c-message {
+[lang] .c-message, [lang] ts-message {
   font-size: 14px;
   letter-spacing: -0.43px;
 }
 
-[lang] .c-message__body {
+[lang] .c-message__body, #convo_container ts-conversation ts-message.selected .message_content .message_body {
   line-height: 17px;
 }
 
