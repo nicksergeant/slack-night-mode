@@ -1,5 +1,15 @@
 $color-base: #1C1B1A;
 
+#msg_form #msg_input {
+  background-color: $color-base !important;
+  font-family: $base-font-family !important;
+  font-size: 14px !important;
+}
+
+#primary_file_button {
+  background-color: $color-base !important;
+}
+
 .c-message--dense .c-message__content_header {
   display: block;
 }

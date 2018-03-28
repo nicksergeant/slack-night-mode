@@ -1,3 +1,7 @@
+#msg_form #msg_input { background-color: #1C1B1A !important; font-family: Menlo !important; font-size: 14px !important; }
+
+#primary_file_button { background-color: #1C1B1A !important; }
+
 .c-message--dense .c-message__content_header { display: block; }
 
 [lang] .c-message { font-size: 14px; letter-spacing: -0.43px; }
