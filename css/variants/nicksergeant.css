@@ -14,7 +14,7 @@ span.emoji-outer { margin-top: 2px; }
 
 .c-mrkdwn__member--link, .c-mrkdwn__subteam--link { background: transparent; }
 
-.c-reaction { background: transparent; border-color: #545454; }
+.c-reaction, .c-reaction_add { background: transparent; border-color: #545454; }
 
 .c-message__reply_bar, .c-message__reply_bar:hover, .c-message__reply_bar--focus { border-color: #545454 !important; }
 
