@@ -4,9 +4,9 @@
 
 .c-message--dense .c-message__content_header { display: block; }
 
-[lang] .c-message, [lang] ts-message { font-size: 14px; letter-spacing: -0.43px; }
+[lang] .c-message, [lang] ts-message { font-size: 14px !important; letter-spacing: -0.43px !important; }
 
-[lang] .c-message__body, #convo_container ts-conversation ts-message.selected .message_content .message_body { line-height: 17px; }
+[lang] .c-message__body, #convo_container ts-conversation ts-message.selected .message_content .message_body { line-height: 17px !important; }
 
 span.emoji { height: 14px; width: 14px; }
 
