@@ -1,0 +1,38 @@
+.c-message--dense .c-message__content_header {
+  display: block;
+}
+
+[lang] .c-message {
+  font-size: 14px;
+  letter-spacing: -0.43px;
+}
+
+[lang] .c-message__body {
+  line-height: 17px;
+}
+
+span.emoji {
+  height: 14px;
+  width: 14px;
+}
+
+span.emoji-outer {
+  margin-top: 2px;
+}
+
+.c-mrkdwn__member--link, .c-mrkdwn__subteam--link {
+  background: transparent;
+}
+
+.c-reaction {
+  background: transparent;
+  border-color: #545454;
+}
+
+.c-message__reply_bar, .c-message__reply_bar:hover, .c-message__reply_bar--focus {
+  border-color: #545454 !important;
+}
+
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
+  background-color: transparent !important;
+}
