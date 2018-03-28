@@ -20,6 +20,8 @@ span.emoji-outer { margin-top: 2px; }
 
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: transparent !important; }
 
+.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover { background: #3BB4EB !important; color: black !important; }
+
 @-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #1C1B1A; color: #e6e6e6; }
   a { color: #949494; }
   a:link, a:visited { color: #949494; }

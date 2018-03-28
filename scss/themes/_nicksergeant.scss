@@ -48,3 +48,8 @@ span.emoji-outer {
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
   background-color: transparent !important;
 }
+
+.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover {
+  background: #3BB4EB !important;
+  color: black !important;
+}
