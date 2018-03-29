@@ -48,6 +48,18 @@ span.emoji-only {
   width: 1em;
 }
 
+.emoji-sizer, .no_jumbomoji .emoji-sizer.emoji-only, .no_jumbomoji.emoji-sizer.emoji-only {
+  margin-top: 2px;
+}
+
+.c-custom_status .emoji-sizer {
+  margin-top: -2px;
+}
+
+a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji-outer:not(:empty), span.emoji:not(:empty) {
+  margin-top: 0;
+}
+
 .c-mrkdwn__member--link,
 .c-mrkdwn__subteam--link {
   background: transparent;
