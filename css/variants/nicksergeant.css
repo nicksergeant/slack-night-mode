@@ -6,7 +6,7 @@
 
 [lang] .c-message__body, [lang] ts-message, #convo_container ts-conversation ts-message.selected .message_content .message_body, .msg_inline_attachment_row.attachment_flush_text.attachment_source + .attachment_flush_text, [lang] .c-message_attachment__body { font-size: 14px !important; letter-spacing: -0.43px !important; line-height: 17px !important; }
 
-.c-message__attachments { margin-top: 15px; }
+.c-message__attachments { margin-top: 10px; }
 
 .attachment_group { margin: 12px 0; }
 
