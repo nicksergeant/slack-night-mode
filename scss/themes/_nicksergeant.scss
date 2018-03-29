@@ -1,4 +1,4 @@
-$color-base: #1C1B1A;
+$color-base: #1c1b1a;
 
 #msg_form #msg_input {
   background-color: $color-base !important;
@@ -14,16 +14,31 @@ $color-base: #1C1B1A;
   display: block;
 }
 
-[lang] .c-message, [lang] ts-message {
+[lang] .c-message__body,
+[lang] ts-message,
+#convo_container
+  ts-conversation
+  ts-message.selected
+  .message_content
+  .message_body,
+.msg_inline_attachment_row.attachment_flush_text.attachment_source
+  + .attachment_flush_text,
+[lang] .c-message_attachment__body {
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
-}
-
-[lang] .c-message__body, #convo_container ts-conversation ts-message.selected .message_content .message_body {
   line-height: 17px !important;
 }
 
+.c-message__attachments {
+  margin-top: 15px;
+}
+
+.attachment_group {
+  margin: 12px 0;
+}
+
 span.emoji {
+  background-color: white;
   height: 14px;
   width: 14px;
 }
@@ -32,24 +47,36 @@ span.emoji-outer {
   margin-top: 2px;
 }
 
-.c-mrkdwn__member--link, .c-mrkdwn__subteam--link {
+.c-mrkdwn__member--link,
+.c-mrkdwn__subteam--link {
   background: transparent;
 }
 
-.c-reaction, .c-reaction_add {
+.c-reaction,
+.c-reaction_add {
   background: transparent;
   border-color: #545454;
 }
 
-.c-message__reply_bar, .c-message__reply_bar:hover, .c-message__reply_bar--focus {
+.c-message__reply_bar,
+.c-message__reply_bar:hover,
+.c-message__reply_bar--focus {
   border-color: #545454 !important;
 }
 
-.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread,
+.c-message__reply_bar--focus .c-message__reply_bar_view_thread {
   background-color: transparent !important;
 }
 
-.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover {
-  background: #FE3EF9 !important;
+.c-mrkdwn__mention,
+.c-mrkdwn__mention:hover,
+.c-mrkdwn__member--mention,
+.c-mrkdwn__member--mention:hover,
+.c-mrkdwn__broadcast--mention,
+.c-mrkdwn__broadcast--mention:hover,
+.c-mrkdwn__subteam--mention,
+.c-mrkdwn__subteam--mention:hover {
+  background: #fe3ef9 !important;
   color: black !important;
 }
