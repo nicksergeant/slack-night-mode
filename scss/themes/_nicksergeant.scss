@@ -32,6 +32,19 @@ $color-base: #1c1b1a;
   line-height: 17px !important;
 }
 
+body .p-channel_sidebar__channel:hover,
+body .p-channel_sidebar__link:hover,
+body .p-channel_sidebar__channel--selected,
+body .p-channel_sidebar__channel--selected,
+body .p-channel_sidebar__link--selected,
+body .p-channel_sidebar__link--selected:hover {
+  background-color: #363636 !important;
+}
+
+body .p-channel_sidebar {
+  background-color: #181616 !important;
+}
+
 .c-message__attachments {
   margin-top: 10px;
 }
