@@ -20,7 +20,7 @@ span.emoji-outer { margin-top: 2px; }
 
 .c-message__reply_bar, .c-message__reply_bar:hover, .c-message__reply_bar--focus { border-color: #545454 !important; }
 
-.c-message__reply_bar, .c-reaction_bar { margin-top: 12px; }
+.c-message__reply_bar, .c-reaction_bar { margin-top: 12px !important; }
 
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: transparent !important; }
 
