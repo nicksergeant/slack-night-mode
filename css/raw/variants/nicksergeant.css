@@ -10,6 +10,8 @@ body .p-channel_sidebar__channel:hover, body .p-channel_sidebar__link:hover, bod
 
 body .p-channel_sidebar { background-color: #181616 !important; }
 
+.texty_legacy .ql-placeholder { color: white !important; }
+
 .c-message__attachments { margin-top: 10px; }
 
 .attachment_group { margin: 12px 0; }
