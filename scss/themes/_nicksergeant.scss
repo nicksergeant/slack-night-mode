@@ -23,7 +23,10 @@ $color-base: #1c1b1a;
   .message_body,
 .msg_inline_attachment_row.attachment_flush_text.attachment_source
   + .attachment_flush_text,
-[lang] .c-message_attachment__body {
+[lang] .c-message_attachment__body,
+.p-channel_sidebar__virtualized,
+.p-channel_sidebar__static_list {
+  font-family: $base-font-family !important;
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
   line-height: 17px !important;
@@ -62,7 +65,7 @@ span.emoji-only {
 
 span.emoji-outer,
 span.emoji {
-  transition: width .1s, height .1s, margin-top .1s, margin-left .1s;
+  transition: width 0.1s, height 0.1s, margin-top 0.1s, margin-left 0.1s;
 }
 
 span.emoji-outer:hover,
