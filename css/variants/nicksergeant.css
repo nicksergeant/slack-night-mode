@@ -20,6 +20,8 @@ span.emoji-outer { margin-top: 2px; }
 
 .c-message__reply_bar, .c-message__reply_bar:hover, .c-message__reply_bar--focus { border-color: #545454 !important; }
 
+.c-message__reply_bar { margin-top: 12px; }
+
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: transparent !important; }
 
 .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover { background: #fe3ef9 !important; color: black !important; }
