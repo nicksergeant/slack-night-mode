@@ -10,9 +10,9 @@
 
 .attachment_group { margin: 12px 0; }
 
-span.emoji { background-color: white; height: 14px; width: 14px; }
+span.emoji, span.emoji-outer { background-color: white; border-radius: 4px; height: 16px; width: 16px; }
 
-span.emoji-only { height: 1em; width: 1em; }
+span.emoji-only { height: 1.5em; width: 1.5em; }
 
 .emoji-sizer, .no_jumbomoji .emoji-sizer.emoji-only, .no_jumbomoji.emoji-sizer.emoji-only { margin-top: 2px; }
 

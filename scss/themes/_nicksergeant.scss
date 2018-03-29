@@ -37,18 +37,22 @@ $color-base: #1c1b1a;
   margin: 12px 0;
 }
 
-span.emoji {
+span.emoji,
+span.emoji-outer {
   background-color: white;
-  height: 14px;
-  width: 14px;
+  border-radius: 4px;
+  height: 16px;
+  width: 16px;
 }
 
 span.emoji-only {
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
 }
 
-.emoji-sizer, .no_jumbomoji .emoji-sizer.emoji-only, .no_jumbomoji.emoji-sizer.emoji-only {
+.emoji-sizer,
+.no_jumbomoji .emoji-sizer.emoji-only,
+.no_jumbomoji.emoji-sizer.emoji-only {
   margin-top: 2px;
 }
 
@@ -56,7 +60,10 @@ span.emoji-only {
   margin-top: -2px;
 }
 
-a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji-outer:not(:empty), span.emoji:not(:empty) {
+a span.emoji-outer:not(:empty),
+a:hover span.emoji-outer:not(:empty),
+span.emoji-outer:not(:empty),
+span.emoji:not(:empty) {
   margin-top: 0;
 }
 
@@ -77,7 +84,8 @@ a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji
   border-color: #545454 !important;
 }
 
-.c-message__reply_bar, .c-reaction_bar {
+.c-message__reply_bar,
+.c-reaction_bar {
   margin-top: 12px !important;
 }
 
