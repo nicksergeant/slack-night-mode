@@ -60,6 +60,18 @@ span.emoji-only {
   margin-top: -2px;
 }
 
+span.emoji-outer,
+span.emoji {
+  -webkit-transition: width .1s, height .1s;
+  transition: width .1s, height .1s;
+}
+
+span.emoji-outer:active,
+span.emoji:active {
+  height: 3em !important;
+  width: 3em !important;
+}
+
 a span.emoji-outer:not(:empty),
 a:hover span.emoji-outer:not(:empty),
 span.emoji-outer:not(:empty),
