@@ -62,13 +62,14 @@ span.emoji-only {
 
 span.emoji-outer,
 span.emoji {
-  -webkit-transition: width .1s, height .1s;
-  transition: width .1s, height .1s;
+  transition: width .1s, height .1s, margin-top .1s, margin-left .1s;
 }
 
 span.emoji-outer:active,
 span.emoji:active {
   height: 3em !important;
+  margin-left: -1em !important;
+  margin-top: -1em !important;
   position: relative;
   width: 3em !important;
   z-index: 99999;
