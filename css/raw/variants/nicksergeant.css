@@ -12,7 +12,7 @@
 
 span.emoji { background-color: white; height: 14px; width: 14px; }
 
-span.emoji-outer { margin-top: 2px; }
+span.emoji-only { height: 1em; width: 1em; }
 
 .c-mrkdwn__member--link, .c-mrkdwn__subteam--link { background: transparent; }
 
