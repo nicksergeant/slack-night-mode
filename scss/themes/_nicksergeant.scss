@@ -25,7 +25,8 @@ $color-base: #1c1b1a;
   + .attachment_flush_text,
 [lang] .c-message_attachment__body,
 .p-channel_sidebar__virtualized,
-.p-channel_sidebar__static_list {
+.p-channel_sidebar__static_list,
+.c-message__sender a {
   font-family: $base-font-family !important;
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
