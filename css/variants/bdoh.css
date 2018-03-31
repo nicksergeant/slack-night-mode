@@ -6,8 +6,6 @@
 
 .c-message--dense .c-message__sender { margin-left: 0; }
 
-.c-message--dense .c-message__content_header { display: block; }
-
 [lang] .c-message__body, [lang] ts-message, #convo_container ts-conversation ts-message.selected .message_content .message_body, .msg_inline_attachment_row.attachment_flush_text.attachment_source + .attachment_flush_text, [lang] .c-message_attachment__body, .p-channel_sidebar__virtualized, .p-channel_sidebar__static_list, .c-message__sender a { font-family: Monaco !important; font-size: 14px !important; letter-spacing: -0.43px !important; line-height: 17px !important; }
 
 body .p-channel_sidebar__channel:hover, body .p-channel_sidebar__link:hover, body .p-channel_sidebar__channel--selected, body .p-channel_sidebar__channel--selected, body .p-channel_sidebar__link--selected, body .p-channel_sidebar__link--selected:hover { background-color: #363636 !important; }
@@ -22,7 +20,7 @@ body .p-channel_sidebar { background-color: #181616 !important; }
 
 span.emoji, span.emoji-outer { background-color: white; border-radius: 4px; height: 16px; width: 16px; }
 
-span.emoji-only { height: 1.5em; width: 1.5em; }
+span.emoji-only { height: 16px; width: 16px; }
 
 .emoji-sizer, .no_jumbomoji .emoji-sizer.emoji-only, .no_jumbomoji.emoji-sizer.emoji-only { margin-top: 2px; }
 

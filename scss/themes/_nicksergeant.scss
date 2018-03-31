@@ -19,7 +19,7 @@ $color-base: #1c1b1a;
 }
 
 .c-message--dense .c-message__content_header {
-  display: block;
+  // display: block;
 }
 
 [lang] .c-message__body,
@@ -75,8 +75,8 @@ span.emoji-outer {
 }
 
 span.emoji-only {
-  height: 1.5em;
-  width: 1.5em;
+  height: 16px;
+  width: 16px;
 }
 
 .emoji-sizer,
