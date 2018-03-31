@@ -10,6 +10,14 @@ $color-base: #1c1b1a;
   background-color: $color-base !important;
 }
 
+.c-message--dense .c-message__content {
+  padding-left: 0;
+}
+
+.c-message--dense .c-message__sender {
+  margin-left: 0;
+}
+
 .c-message--dense .c-message__content_header {
   display: block;
 }
