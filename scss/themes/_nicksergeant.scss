@@ -34,7 +34,8 @@ $color-base: #1c1b1a;
 [lang] .c-message_attachment__body,
 .p-channel_sidebar__virtualized,
 .p-channel_sidebar__static_list,
-.c-message__sender a {
+.c-message__sender a,
+.c-message__file_meta_title {
   font-family: $base-font-family !important;
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
@@ -77,6 +78,10 @@ span.emoji-outer {
 span.emoji-only {
   height: 16px;
   width: 16px;
+}
+
+.c-message--dense .c-message__content_header .c-custom_status {
+  display: none;
 }
 
 .emoji-sizer,
