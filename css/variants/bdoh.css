@@ -26,8 +26,6 @@ span.emoji-only { height: 25px; width: 25px; }
 
 span.emoji-outer, span.emoji { transition: width 0.1s, height 0.1s, margin-top 0.1s, margin-left 0.1s; }
 
-span.emoji-outer:hover, span.emoji:hover { cursor: zoom-in; }
-
 a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji-outer:not(:empty), span.emoji:not(:empty) { margin-top: 0; }
 
 .c-mrkdwn__member--link, .c-mrkdwn__subteam--link { background: transparent; }
@@ -42,7 +40,7 @@ a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji
 
 .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover { background: #fe3ef9 !important; color: black !important; }
 
-code { border-size: 0; padding: 0px 4px 1px; }
+code { border-width: 0; padding: 0px 4px 1px; }
 
 span.emoji, span.emoji-outer { background-color: white; }
 
@@ -53,6 +51,8 @@ span.emoji-outer:active, span.emoji:active { cursor: none; height: 3em !importan
 span.emoji, span.emoji-outer { height: 80px; width: 80px; }
 
 span.emoji-only { height: 80px; width: 80px; }
+
+span.emoji-outer:hover, span.emoji:hover { cursor: zoom-in; }
 
 @-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #1c1b1a; color: #f8f6f2; }
   a { color: #949494; }
