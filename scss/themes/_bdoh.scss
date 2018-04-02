@@ -29,3 +29,8 @@ span.emoji-only {
   height: 80px;
   width: 80px;
 }
+
+span.emoji-outer:hover,
+span.emoji:hover {
+  cursor: zoom-in;
+}

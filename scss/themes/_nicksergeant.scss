@@ -88,11 +88,6 @@ span.emoji {
   transition: width 0.1s, height 0.1s, margin-top 0.1s, margin-left 0.1s;
 }
 
-span.emoji-outer:hover,
-span.emoji:hover {
-  cursor: zoom-in;
-}
-
 a span.emoji-outer:not(:empty),
 a:hover span.emoji-outer:not(:empty),
 span.emoji-outer:not(:empty),
