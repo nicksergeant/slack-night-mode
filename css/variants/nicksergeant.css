@@ -20,7 +20,7 @@ body .p-channel_sidebar { background-color: #181616 !important; }
 
 span.emoji, span.emoji-outer { background-color: white; border-radius: 4px; height: 16px; width: 16px; }
 
-span.emoji-only { height: 1.5em; width: 1.5em; }
+span.emoji-only { height: 25px; width: 25px; }
 
 .c-message--dense .c-message__content_header .c-custom_status { display: none; }
 
