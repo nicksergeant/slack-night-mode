@@ -1,4 +1,4 @@
-$base-font-color: #F8F6F2 !default;
+$base-font-color: #f8f6f2 !default;
 $color-base: #1c1b1a;
 
 #msg_form #msg_input {
@@ -24,7 +24,8 @@ $color-base: #1c1b1a;
 .p-channel_sidebar__virtualized,
 .p-channel_sidebar__static_list,
 .c-message__sender a,
-.c-message__file_meta_title {
+.c-message__file_meta_title,
+code {
   font-family: $base-font-family !important;
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
@@ -136,4 +137,9 @@ span.emoji:not(:empty) {
 .c-mrkdwn__subteam--mention:hover {
   background: #fe3ef9 !important;
   color: black !important;
+}
+
+code {
+  border-size: 0;
+  padding: 0px 4px 1px;
 }
