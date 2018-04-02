@@ -18,3 +18,14 @@ span.emoji:active {
   width: 3em !important;
   z-index: 99999;
 }
+
+span.emoji,
+span.emoji-outer {
+  height: 80px;
+  width: 80px;
+}
+
+span.emoji-only {
+  height: 80px;
+  width: 80px;
+}

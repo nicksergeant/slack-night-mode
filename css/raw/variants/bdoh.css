@@ -48,6 +48,10 @@ span.emoji-outer:active, span.emoji:active { background-color: white; }
 
 span.emoji-outer:active, span.emoji:active { cursor: none; height: 3em !important; margin-left: -1em !important; margin-top: -1em !important; position: relative; width: 3em !important; z-index: 99999; }
 
+span.emoji, span.emoji-outer { height: 80px; width: 80px; }
+
+span.emoji-only { height: 80px; width: 80px; }
+
 body { background: #1c1b1a; color: #e6e6e6; }
 
 a { color: #949494; }
