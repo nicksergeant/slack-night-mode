@@ -50,7 +50,7 @@ code { border-width: 0; padding: 0px 4px 1px; }
 
 .c-message--dense { padding-bottom: 3px !important; padding-top: 0 !important; }
 
-.c-message--dense .c-message__content_header { line-height: 20px !important; }
+.c-message--dense .c-message__content_header { line-height: 19px !important; }
 
 span.emoji, span.emoji-outer { background-color: white; }
 
