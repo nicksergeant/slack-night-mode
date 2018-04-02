@@ -42,6 +42,12 @@ a span.emoji-outer:not(:empty), a:hover span.emoji-outer:not(:empty), span.emoji
 
 code { border-width: 0; padding: 0px 4px 1px; }
 
+.c-message--dense .c-message__sender, .c-message--dense .c-message__body--tombstone { display: inline-block; margin-left: -109px; text-align: right; width: 100px; }
+
+.c-message--dense .c-message__content { margin-left: 179px; padding-left: 0; }
+
+.c-message__sender_link { overflow: hidden; max-width: 100px; text-overflow: ellipsis; vertical-align: middle; }
+
 body { background: #1c1b1a; color: #f8f6f2; }
 
 a { color: #949494; }
