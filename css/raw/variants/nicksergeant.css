@@ -1,8 +1,8 @@
-#msg_form #msg_input { background-color: #1c1b1a !important; font-family: Menlo !important; font-size: 14px !important; }
+#msg_form #msg_input { background-color: #1c1b1a !important; font-family: Menlo !important; font-size: 15px !important; }
 
 #primary_file_button { background-color: #1c1b1a !important; }
 
-[lang] .c-message__body, [lang] ts-message, #convo_container ts-conversation ts-message.selected .message_content .message_body, .msg_inline_attachment_row.attachment_flush_text.attachment_source + .attachment_flush_text, [lang] .c-message_attachment__body, .p-channel_sidebar__virtualized, .p-channel_sidebar__static_list, .c-message__sender a, .c-message__file_meta_title, code { font-family: Menlo !important; font-size: 14px !important; letter-spacing: -0.43px !important; line-height: 21px !important; }
+[lang] .c-message__body, [lang] ts-message, #convo_container ts-conversation ts-message.selected .message_content .message_body, .msg_inline_attachment_row.attachment_flush_text.attachment_source + .attachment_flush_text, [lang] .c-message_attachment__body, .p-channel_sidebar__virtualized, .p-channel_sidebar__static_list, .c-message__sender a, .c-message__file_meta_title, code { font-family: Menlo !important; font-size: 15px !important; letter-spacing: -0.43px !important; line-height: 22px !important; }
 
 body .p-channel_sidebar__channel:hover, body .p-channel_sidebar__link:hover, body .p-channel_sidebar__channel--selected, body .p-channel_sidebar__channel--selected, body .p-channel_sidebar__link--selected, body .p-channel_sidebar__link--selected:hover { background-color: #363636 !important; }
 
@@ -50,7 +50,7 @@ code { border-width: 0; padding: 0px 4px 1px; }
 
 .c-message--dense { padding-bottom: 3px !important; padding-top: 0 !important; }
 
-.c-message--dense .c-message__content_header { line-height: 19px !important; }
+.c-message--dense .c-message__content_header { line-height: 22px !important; }
 
 body { background: #1c1b1a; color: #f8f6f2; }
 
