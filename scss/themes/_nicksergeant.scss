@@ -29,7 +29,7 @@ code {
   font-family: $base-font-family !important;
   font-size: 14px !important;
   letter-spacing: -0.43px !important;
-  line-height: 21px !important;
+  line-height: 20px !important;
 }
 
 body .p-channel_sidebar__channel:hover,
@@ -161,4 +161,8 @@ code {
 .c-message--dense {
   padding-bottom: 3px !important;
   padding-top: 0 !important;
+}
+
+.c-message--dense .c-message__content_header {
+  line-height: 20px !important;
 }
