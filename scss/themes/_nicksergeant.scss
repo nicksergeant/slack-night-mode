@@ -10,18 +10,6 @@ $color-base: #1c1b1a;
   background-color: $color-base !important;
 }
 
-.c-message--dense .c-message__content {
-  padding-left: 0;
-}
-
-.c-message--dense .c-message__sender {
-  margin-left: 0;
-}
-
-.c-message--dense .c-message__content_header {
-  // display: block;
-}
-
 [lang] .c-message__body,
 [lang] ts-message,
 #convo_container
@@ -69,7 +57,6 @@ body .p-channel_sidebar {
 
 span.emoji,
 span.emoji-outer {
-  background-color: white;
   border-radius: 4px;
   height: 16px;
   width: 16px;
