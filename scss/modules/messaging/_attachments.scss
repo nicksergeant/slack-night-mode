@@ -331,7 +331,8 @@
   color: $base-link-color-active;
 }
 
-.file_container {
+.file_container,
+.c-file_container {
   background: $color-shade-darkest;
   border: 1px solid $color-shade-dark;
   color: $base-font-color;
@@ -438,6 +439,10 @@
       background: rgba($color-shade-light, 0.8);
       color: $base-font-color;
     }
+  }
+
+  .c-file__title {
+    color: $base-font-color;
   }
 }
 
