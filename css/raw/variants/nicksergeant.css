@@ -1,3 +1,5 @@
+body { background: #222; }
+
 #msg_form #msg_input { background-color: #1c1b1a !important; font-family: Menlo !important; font-size: 15px !important; }
 
 #primary_file_button { background-color: #1c1b1a !important; }
